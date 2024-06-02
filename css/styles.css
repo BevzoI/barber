@@ -1,0 +1,60 @@
+.container {
+    width: 1440px;
+    height: 5375;
+    display: block;
+    text-align: center;
+  }
+
+  .container-hero {
+    text-align: center;
+  }
+
+
+.img{
+
+    background-image: url("../images/heroimg.jpg");
+
+    background-size: no-repeat;
+
+    background-position: center;
+
+    background-size: cover;
+
+}
+
+.buttons {
+    position: absolute;
+    top: 88px;
+    left: 135px;
+    text-align: center;
+}
+
+.button {
+    border: medium none;
+	background-image: none; 
+	background: transparent;
+	float: left;
+	background-color: transparent;
+    font-family: "Caveat", bold;
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+}
+
+.hero-btn {
+    width: 213px;
+    height: 60px;
+    border-radius: 15px;
+    background-color: #fff;
+    font-family: "Caveat", bold;
+    color: #281707;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-logo {
+    position: absolute;
+    color: #fff;
+}
